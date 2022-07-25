@@ -3,8 +3,8 @@ some sequence models
 
 Each directory is a separate sequence model.
 
-1. generate_university_name: generate university names by rnn model.  
-University.txt is trainning courpus file.   
+1.cd generate_university_name. generate university names by rnn model.  
+university.txt is trainning courpus file.   
 python rnn.py will get some random university names like:   
 There are 41873 total characters and 986 unique characters in your data.
 55.06491119049948
