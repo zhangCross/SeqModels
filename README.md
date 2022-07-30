@@ -3,7 +3,7 @@ some sequence models
 
 Each directory is a separate sequence model.
 
-1.cd generate_university_name. generate university names by rnn model.  
+1. cd generate_university_name. generate university names by rnn model.  
 university.txt is trainning courpus file.   
 python rnn.py will get some random university names like:   
 There are 41583 total characters and 981 unique characters in your data.
@@ -115,3 +115,6 @@ final loss: 20.458557
 新海师范大学
 江西函体中修学院
 常尔剧世国球指修学院
+
+
+2. cd imdb_sentiment_classification, python imdb_sentiment_classification.py
