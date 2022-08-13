@@ -25,4 +25,3 @@ def get_initial_loss(n_y, seq_length):
 
 def smooth(loss, cur_loss):
     return loss * 0.999 + cur_loss * 0.001
-

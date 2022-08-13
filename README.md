@@ -117,4 +117,5 @@ final loss: 20.458557
 常尔剧世国球指修学院
 
 
-2. cd imdb_sentiment_classification, python imdb_sentiment_classification.py
+2. cd imdb_sentiment_classification, python imdb_sentiment_classification.py 
+将会对tf自带数据imdb进行情感分类，画出训练过程中的准确率和loss，返回最终loss和准确率
