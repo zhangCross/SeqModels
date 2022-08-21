@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 class MyModel(tf.keras.models.Model):
     def __int__(self):
         super(MyModel, self).__init__()

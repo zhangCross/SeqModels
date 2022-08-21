@@ -117,5 +117,7 @@ final loss: 20.458557
 常尔剧世国球指修学院
 
 
-2. cd imdb_sentiment_classification, python imdb_sentiment_classification.py 
-将会对tf自带数据imdb进行情感分类，画出训练过程中的准确率和loss，返回最终loss和准确率
+2. cd imdb_sentiment_classification,该项目对tf自带数据imdb进行情感分类，画出训练过程中的准确率和loss，返回最终loss和准确率.
+首先需要解压glove.50d.txt.zip文件得到glove.50d.txt
+使用avg池化层：python avg_pooling.py 
+使用lstm层：python lstm.py
