@@ -36,8 +36,6 @@ def train_model(model, train_data, train_labels, epochs=20, batch_size=512):
 def test_model(model, test_data, test_labels):
     results = model.evaluate(test_data, test_labels, verbose=0)
     print(results)
-#[0.3066553473472595, 0.8744000792503357]
-#[0.33859536051750183, 0.8532400727272034] 25, 64
 
 
 def plot_history(history):

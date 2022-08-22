@@ -106,7 +106,7 @@ def main():
     model = get_model((MAXLEN,), word_to_vec_map, word_index)
     model.summary()
     history = utils.train_model(model, train_data, train_labels, 25, 64)
-    # utils.plot_history(history)
+    utils.plot_history(history)
     utils.test_model(model, test_data, test_labels)
 
 
