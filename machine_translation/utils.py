@@ -66,21 +66,6 @@ FORMATS = ['short',
            'yyyy年M月d号EEEE',
            'yyyy年MM月dd号EEEE',
            'yyyy年MMMMd号EEEE']
-FORMATS1 = ['short',
-            'medium',
-            'long',
-            'full',
-            'd MMM yyyy',
-            'd MMMM yyyy',
-            'dd MMM yyyy',
-            'd MMM, yyyy',
-            'd MMMM, yyyy',
-            'dd, MMM yyyy',
-            'd MM YY',
-            'd MMMM yyyy',
-            'MMMM d yyyy',
-            'MMMM d, yyyy',
-            'dd.MM.YY']
 
 
 def load_date():
