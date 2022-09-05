@@ -121,3 +121,7 @@ final loss: 20.458557
 首先需要解压glove.50d.txt.zip文件得到glove.50d.txt   
 使用avg池化层：python avg_pooling.py   
 使用lstm层且使用外部的embedding向量实现迁移学习：python lstm.py
+
+3. 神经网络翻译模型，使用带attention机制的双层LSTM。源语言为各种中文格式的日期，目标语言为规范的日期格式yyyy-MM-dd。  
+训练样本是使用faker包生成的数据，然后转为one-hot格式。训练完成后，人工构造若干测试数据，完成测试。  
+测试完毕后，还用matplot画出了attention的权重，形象展示了解码过程中每个时刻t依赖编码的权重。
